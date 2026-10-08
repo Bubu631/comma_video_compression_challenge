@@ -89,8 +89,6 @@ Validation was staged: a private porting probe ran the inherited entropy decoder
 
 The unchanged official evaluator processed this full output in approximately 127 seconds after setup. This was not a fresh invocation of the public `inflate.sh` from ZIP through scoring, and no such claim is made. The public inflater includes full token decoding and has no external-cache path. Model/stream byte parity, the staged numerical checks, and source review support the implementation; the fresh official-compatible CUDA pipeline remains for validation.
 
-## Attribution, license, and AI disclosure
+## Attribution and license
 
 The inherited source is pinned to PR #135 commit `6dcf77164ccbdcc1e0e41c99312e65ace4bc1fb4`; the challenge checkout is `db52c5a9f05d5298e314fb0fa130290c4a350c4e`. The [upstream release](https://github.com/codexblack/comma_video_compression_challenge/releases/download/semantic-pose-HPAC_CPR1_polished-f26/archive.zip) supplies the learned artifact. Its authors retain credit for the models, renderer, carrier, selector, and entropy coding. Original copied-file hashes appear in `UPSTREAM_FILES.json`; the MIT notice is retained in `LICENSE.upstream`. See `LINEAGE.md` for the scope of inherited and changed work.
-
-AI agents generated the new implementation, experiments, tests, and this description at the user's direction. The user has not claimed to have personally written or reviewed this code. This disclosure does not change attribution of inherited work.
